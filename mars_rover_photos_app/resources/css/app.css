@@ -1,0 +1,41 @@
+@import 'bootstrap/scss/bootstrap.scss';
+/* Изменение фона */
+body {
+    background-color: #d9cbbc;
+}
+
+/* Стилизация рамки вокруг фотографий */
+.photo-frame {
+    border: 6px solid #a29872;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.photo-frame img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.back-icon{
+    width: 34px;
+    height: 34px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: none;
+}
+.modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body{
+    padding: 0!important;
+}
+#modal-image{
+    border-radius: 10px;
+}
+.modal-content{
+    color: white;
+    background: black;
+}
